@@ -13,9 +13,9 @@ public class Dao {
  
 	public Dao() {
 		try {
-			String dbURL = "jdbc:mysql://localhost:3306/ANONYMOUSCHAT?autoReconnect=true&useSSL=false";
-			String dbID = "root";
-			String dbPassword = "root";
+			String dbURL = "jdbc:mysql://localhost:3306/프로젝트?autoReconnect=true&useSSL=false";
+			String dbID = "ID";
+			String dbPassword = "Password";
 			Class.forName("com.mysql.jdbc.Driver");
 			conn = DriverManager.getConnection(dbURL, dbID, dbPassword);
 		} catch (Exception e) {
